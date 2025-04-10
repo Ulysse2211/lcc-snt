@@ -1,13 +1,13 @@
 <template>
-  <div class="m-40">
+  <div class="m-10 mr-15 ml-15">
     <div class="overflow-hidden rounded-lg flex justify-center items-center">
       <div class="blur-lg h-full w-full">
         <img alt="Logo" src="assets/hero.png" draggable="false" class="w-full" />
       </div>
       <div class="absolute inset-0 flex justify-center items-center z-10">
-        <div>
+        <div class="mb-50">
           <h1 class="text-9xl text-red-700">Lycée Camille Claudel</h1>
-          <span class="text-white text-2xl">Un lycée des arts et métiers</span>
+          <span class="text-white text-2xl">Lycée des métiers des arts et du design</span>
         </div>
       </div>
     </div>
@@ -39,7 +39,7 @@
         <h1 class="text-5xl mb-15">Articles</h1>
         <div class="flex gap-20">
           <ULink class="outline rounded-xl w-80 bg-slate-300 hover:bg-slate-400" v-for="(post, index) in posts" :to="post.path">
-            <img :src="post.image" alt="Image" class="rounded-t-xl w-full mb-5">
+            <img :src="post.image" alt="Image" draggable="false" class="rounded-t-xl w-full mb-5">
             <div class="m-5">
               <h1 class="text-3xl">{{ post.title }}</h1>
               <hr class="m-3">

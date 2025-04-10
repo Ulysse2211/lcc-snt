@@ -6,7 +6,7 @@ const { data: page } = await useAsyncData(route.path, () => {
 </script>
 
 <template>
-  <div class="m-30">
+  <div class="m-10">
     <NuxtLink to="/" class="fixed flex items-center gap-2 text-cyan-600 m-2 hover:text-cyan-400">
       <UIcon name="i-lucide-arrow-left" class="size-5" />
       <h1>Retour à l'accueil</h1>
