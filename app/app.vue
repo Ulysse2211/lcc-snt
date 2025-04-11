@@ -15,32 +15,41 @@
               <h1>0951710t@ac-versailles.fr</h1>
             </a>
           </div>
-          <div class="absolute right-0 flex items-center gap-14 mr-10">
-            <UButton
-                href="https://0951710t.index-education.net/pronote/">
-              <div class="flex items-center">
-                <img
-                    src="assets/pronote.svg"
-                    draggable="false"
-                    class="w-5"/>
-                <h1 class="ml-5 text-xl">Pronote</h1>
-              </div>
-            </UButton>
-            <UButton
-                href="https://psn.monlycee.net/cas/init?redirectUrl=https://psn.monlycee.net/">
-              <div class="flex items-center">
-                <img
-                    src="assets/monlycee.png"
-                    draggable="false"
-                    class="w-5 rounded"/>
-                <h1 class="ml-5 text-xl">Monlycée</h1>
-              </div>
-            </UButton>
-          </div>
         </nav>
       </div>
     </div>
 
+  <div class="fixed right-0 bottom-0 m-10 z-600">
+    <div class="rounded-xl p-10 pt-5 relative overflow-hidden backdrop-blur-2xl">
+      <h1 class="text-2xl mb-5">Services du lycée</h1>
+      <div class="flex gap-5">
+        <UButton
+            class="bg-green-300 hover:bg-green-500"
+            href="https://0951710t.index-education.net/pronote/"
+            target="_blank">
+          <div class="flex items-center">
+            <img
+                src="assets/pronote.svg"
+                draggable="false"
+                class="w-5"/>
+            <h1 class="ml-5 text-xl">Pronote</h1>
+          </div>
+        </UButton>
+        <UButton
+            class="bg-red-300 hover:bg-red-500"
+            href="https://psn.monlycee.net/cas/init?redirectUrl=https://psn.monlycee.net/"
+            target="_blank">
+          <div class="flex items-center">
+            <img
+                src="assets/monlycee.png"
+                draggable="false"
+                class="w-5 rounded"/>
+            <h1 class="ml-5 text-xl">Monlycée</h1>
+          </div>
+        </UButton>
+      </div>
+    </div>
+  </div>
     <div class="pt-20">
       <UApp>
         <NuxtPage />
