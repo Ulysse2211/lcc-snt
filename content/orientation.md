@@ -1,5 +1,5 @@
 ---
-title: "Choisir son orientation après la 3e
+title: "Choisir son orientation après la 3e"
 description: "Un article sur l'orientation après la 3e et les raisons de choisir le lycée Camille Claudel"
 image: "https://www.lecepdor.com/wp-content/uploads/2014/05/l-orientation-un-vrai-casse-tete.jpg"
 date: 2025-05-01
